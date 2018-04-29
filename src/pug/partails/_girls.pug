@@ -1,0 +1,29 @@
+//START GIRL LIST
+
+-
+    var girlsSrc = [
+        './images/girl-list-1.jpg','./images/girl-list-2.jpg','./images/girl-list-3.jpg',
+        './images/girl-list-4.jpg','./images/girl-list-5.jpg','./images/girl-list-17.jpg',
+        './images/girl-list-6.jpg','./images/girl-list-10.jpg','./images/girl-list-8.jpg',
+        './images/girl-list-13.jpg','./images/girl-list-14.jpg','./images/girl-list-15.jpg',
+        './images/girl-list-9.jpg','./images/girl-list-7.jpg','./images/girl-list-11.jpg',
+        './images/girl-list-18.jpg','./images/girl-list-12.jpg','./images/girl-list-16.jpg'
+    ];
+
+
+ul.girls__list.girls-list
+
+    each src in girlsSrc
+        //start girls item
+        li.girls__item
+            img.girls__img(src=src, alt="Виктория")
+            div.girls__info.girls-info.asdasd
+                ul.girls-info__list
+                    li.girls-info__item.girls-info__item--name Виктория
+                    li.girls-info__item Возраст:24
+                    li.girls-info__item Бюст: 2
+                    li.girls-info__item Бедра: 90см
+                    li.girls-info__item Рост: 180 см
+        //end girls item
+
+//END GIRL LIST

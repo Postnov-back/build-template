@@ -1,0 +1,12 @@
+@mixin _600 {
+    @media (max-width: #{600px}){
+        @content;
+    }
+}
+
+// $mobile-width-portrait: 480px;
+@mixin _480 {
+    @media (max-width: #{480px}) {
+        @content;
+    }
+}

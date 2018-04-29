@@ -1,0 +1,35 @@
+.button {
+    border: none;
+    padding: 2px;
+
+    @include _480 {
+        padding: 20px;
+    }
+}
+
+
+.service {
+    padding-left: 20px;
+
+
+
+    @include _600 {
+        padding-left: 0;
+    }
+
+    &__button {
+        z-index: 10;
+
+        @include _600 {
+            z-index: 1;
+        }
+    }
+
+    &__img{
+        display: block;
+    }
+
+    &__title{
+        font-size: 50px;
+    }
+}
